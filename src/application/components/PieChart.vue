@@ -1,6 +1,6 @@
 <template>
-	<div class="flex items-center justify-center p-8">
-		<ApexChart width="800" :options="chartOptions" :series="series" />
+	<div class="flex items-center justify-center p-8 md:py-24">
+		<ApexChart width="950" :options="chartOptions" :series="series" />
 	</div>
 </template>
 
@@ -33,7 +33,7 @@ const chartOptions: ApexOptions = {
 			width: 24,
 			height: 24,
 		},
-		formatter: (name, options) => name.padEnd(10, ' ')
+		formatter: (name, options) => name.padEnd(20, ' ')
 			+ data[options.seriesIndex].size + '%',
 		itemMargin: {
 			horizontal: 8,
@@ -55,6 +55,13 @@ const chartOptions: ApexOptions = {
 					width: 18,
 					height: 18
 				},
+			}
+		}
+	}, {
+		breakpoint: 1280,
+		options: {
+			chart: {
+				width: 800
 			}
 		}
 	}]
