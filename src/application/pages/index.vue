@@ -7,5 +7,6 @@
         <client-only>
             <PieChart />
         </client-only>
+        <Features />
     </div>
 </template>

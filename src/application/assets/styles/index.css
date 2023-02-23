@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,7 @@
 
 @layer utilities {
 	html {
-		@apply text-[14.5px] md:text-[16px] bg-dark text-light;
+		@apply text-[14.5px] md:text-[16px] lg:text-[18px] bg-dark text-light;
 	}
 
 	button {

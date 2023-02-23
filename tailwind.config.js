@@ -15,7 +15,8 @@ module.exports = {
 				dark: '#030415',
 				light: '#FFFFFF',
 				darkGold: '#DD0F01',
-				gold: '#F08402'
+				gold: '#F08402',
+				gray: 'rgb(134, 134, 134)'
 			}
 		},
 		fontFamily: {
