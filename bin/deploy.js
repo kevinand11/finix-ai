@@ -3,7 +3,7 @@ import('execa').then(({ execaSync }) => {
 		execaSync('git', ['checkout', '-B', 'gh-pages'])
 		console.log('Building started...')
 		execaSync('yarn', ['generate'])
-		const folderName = ".output/public"
+		const folderName = "dist"
 		execaSync('git', ['--work-tree', folderName, 'add', '--all'])
 		execaSync('git', ['--work-tree', folderName, 'commit', '-m', 'gh-pages'])
 		console.log('Pushing to gh-pages...')
