@@ -4,5 +4,8 @@
             <Navbar />
             <CTA class="flex-grow" />
         </div>
+        <client-only>
+            <PieChart />
+        </client-only>
     </div>
 </template>
