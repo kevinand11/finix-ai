@@ -1,7 +1,8 @@
 <template>
     <div>
-        <h1 class="text-5xl font-bold underline">
-            Hello world!
-        </h1>
+        <div class="h-[95vh] flex flex-col">
+            <Navbar />
+            <CTA class="flex-grow" />
+        </div>
     </div>
 </template>
