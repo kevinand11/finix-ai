@@ -74,5 +74,12 @@ const series = data.map((item) => item.size)
 	.apexcharts-legend-text {
 		margin-left: unset !important;
 	}
+
+	.apexcharts-legend {
+		display: flex;
+		gap: 0.5rem;
+		flex-direction: column;
+		justify-content: center !important;
+	}
 }
 </style>

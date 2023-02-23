@@ -5,11 +5,11 @@
 				<img src="@/assets/images/features.svg" alt="" class="w-full">
 			</div>
 			<div class="flex-1 flex flex-col gap-8">
-				<h3 class="text-3xl font-bold">Creative Games To Keep You Busy!</h3>
+				<h3 class="text-3xl font-bold">Reasons to pick Finix AI!</h3>
 				<div v-for="data in [
 					{ label: 'Ease of use', text: 'We embed new technologies in our app that were carefully evaluated according to the criteria of cost and ease of use.' },
-					{ label: 'Transfer Securely', text: 'We embed new technologies in our app that were carefully evaluated according to the criteria of cost and ease of use.' },
-					{ label: 'Greater Diversity', text: 'We embed new technologies in our app that were carefully evaluated according to the criteria of cost and ease of use.' }
+					{ label: 'Transfer Securely', text: 'With the mining feature users can earn more while they aren’t actively playing. This feature is similar to staking.' },
+					{ label: 'Greater Diversity', text: 'With AI technology, you are never stuck at any point in the game be it that you’re actively playing or unable to play due to a tight schedule.' }
 				]" :key="data.label" class="flex gap-4 flex-col">
 					<h4 class="text-xl font-medium flex gap-2">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="1.5em" height="1.5em"

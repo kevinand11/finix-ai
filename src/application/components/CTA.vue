@@ -6,8 +6,7 @@
 		<div class="flex-1 md:h-full flex items-center justify-center">
 			<h1 class="text-4xl font-bold">
 				Finix AI<br>
-				Cryptocurrency ICO<br>
-				Do not miss it!
+				A P2E project like no other!
 			</h1>
 		</div>
 	</div>
