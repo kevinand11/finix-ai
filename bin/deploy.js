@@ -4,6 +4,7 @@ import('execa').then(({ execaSync }) => {
 		console.log('Building started...')
 		execaSync('yarn', ['generate'])
 		const folderName = "dist"
+		execaSync('touch', [`${folderName}/.nojekyll`])
 		execaSync('git', ['--work-tree', folderName, 'add', '--all'])
 		execaSync('git', ['--work-tree', folderName, 'commit', '-m', 'gh-pages'])
 		console.log('Pushing to gh-pages...')
