@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
     app: {
         head: {
-            title: 'Finix AI'
+            title: 'Finix AI',
+            link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
         }
     },
     srcDir: 'src/application',
