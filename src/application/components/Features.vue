@@ -52,9 +52,9 @@
 					This allows hoverex software to determine when a particular cryptocurrency amount has been spent, which
 					is necessary in order to prevent double-spending in an environment without central oversight.
 				</p>
-				<button>
-					Whitepaper
-				</button>
+				<a href="@/assets/FINIX LITE PAPER.pdf">
+					<button>Whitepaper</button>
+				</a>
 			</div>
 		</div>
 		<img src="@/assets/images/features-4.png" class="w-full" alt="">
