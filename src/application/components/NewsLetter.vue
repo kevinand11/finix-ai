@@ -2,7 +2,7 @@
 	<div class="flex flex-col gap-8 md:flex-row md:items-center p-8 md:p-16">
 		<div class="flex flex-col gap-1 flex-1">
 			<h4 class="">Subscribe</h4>
-			<h3 class="text-lg font-bold">Be in the know about everything crypto</h3>
+			<h3 class="text-lg font-bold">Be in the know about everything Finix AI</h3>
 			<p class="text-gray">Subscribe to our newsletter to stay informed</p>
 		</div>
 		<form @submit.prevent="submit" class="flex flex-1">
