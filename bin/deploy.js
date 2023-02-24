@@ -1,3 +1,5 @@
+const fs = require('fs')
+
 import('execa').then(({ execaSync }) => {
 	try {
 		execaSync('git', ['checkout', '-B', 'gh-pages'])
@@ -5,6 +7,7 @@ import('execa').then(({ execaSync }) => {
 		execaSync('yarn', ['generate'])
 		const folderName = "dist"
 		execaSync('touch', [`${folderName}/.nojekyll`])
+		fs.writeFileSync(`${folderName}/CNAME`, 'www.finixai.io')
 		execaSync('git', ['--work-tree', folderName, 'add', '--all'])
 		execaSync('git', ['--work-tree', folderName, 'commit', '-m', 'gh-pages'])
 		console.log('Pushing to gh-pages...')
